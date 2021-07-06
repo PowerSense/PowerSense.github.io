@@ -101,7 +101,9 @@
 }
 .sidebar-wrapper {
 	max-width: 295px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center
 }
 @media (max-width:991px) {
 	.sidebar-wrapper {
