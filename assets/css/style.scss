@@ -163,6 +163,10 @@ select#sub-menu, select#sub-menu>option {
     font-size: 1.15rem;
     line-height: 21px;
 }
+.google_icon_link {
+	display: flex;
+	align-items: center
+} 
 // select#sub-menu, select#sub-menu>option {
 //     font-family: Helvetica,Helvetica,Arial,sans-serif;
 //     font-size: 1.8rem;
