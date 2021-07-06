@@ -164,9 +164,8 @@ select#sub-menu, select#sub-menu>option {
     line-height: 21px;
 }
 .google_icon_link {
-	display: flex;
-	align-items: center;
-	vertical-align: middle
+	display:inline-block;
+  	vertical-align: 5px;
 } 
 // select#sub-menu, select#sub-menu>option {
 //     font-family: Helvetica,Helvetica,Arial,sans-serif;
