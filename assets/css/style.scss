@@ -98,6 +98,9 @@
 
 .nolist {
     list-style: none;
+    display: flex;
+    align-items: center;
+    vertical-align: middle
 }
 .sidebar-wrapper {
 	max-width: 295px;
