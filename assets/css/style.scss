@@ -103,7 +103,8 @@
 	max-width: 295px;
 	margin-bottom: 50px;
 	display: flex;
-	align-items: center
+	align-items: center;
+	vertical-align: middle
 }
 @media (max-width:991px) {
 	.sidebar-wrapper {
@@ -167,7 +168,8 @@ select#sub-menu, select#sub-menu>option {
 }
 .google_icon_link {
 	display: flex;
-	align-items: center
+	align-items: center;
+	vertical-align: middle
 } 
 // select#sub-menu, select#sub-menu>option {
 //     font-family: Helvetica,Helvetica,Arial,sans-serif;
