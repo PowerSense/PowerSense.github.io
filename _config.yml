@@ -1,5 +1,5 @@
-title: PowerSense
-description: PowerSense is a set of tools for power systems analysis and operations
-show_downloads: false
-google_analytics: G-T40CJX2T9Y
-theme: jekyll-theme-leap-day
+title: ACOPF Formulations
+description: This project provides a Julia based platform to use nine different ACOPF formualtions for a transmission systems.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
