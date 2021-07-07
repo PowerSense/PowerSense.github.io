@@ -98,13 +98,10 @@
 
 .nolist {
     list-style: none;
-    vertical-align: middle;
 }
 .sidebar-wrapper {
-	max-width: 400px;
-	margin-bottom: 20px;
-	display: inline-flex;
-      	vertical-align: middle;
+	max-width: 200px;
+	margin-bottom: 0;
 }
 @media (max-width:991px) {
 	.sidebar-wrapper {
