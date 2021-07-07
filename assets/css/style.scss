@@ -100,8 +100,10 @@
     list-style: none;
 }
 .sidebar-wrapper {
-	max-width: 295px;
+	max-width: 300px;
 	margin-bottom: 50px;
+	display: inline-flex;
+      	vertical-align: middle;
 }
 @media (max-width:991px) {
 	.sidebar-wrapper {
