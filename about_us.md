@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: supplementary_page
+title: Contact Us
+description: PowerSense.io
 ---
 # About us
 
