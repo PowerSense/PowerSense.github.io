@@ -104,6 +104,10 @@
     vertical-align: middle;
 }
 
+.nolist .sidebar__link .material-icons-two-tone {
+    margin-right: 12px;
+    color: #008C71;
+}
 .sidebar-wrapper {
 	max-width: 300px;
 	margin-bottom: 0;
@@ -169,27 +173,7 @@ select#sub-menu, select#sub-menu>option {
     font-size: 1.15rem;
     line-height: 21px;
 }
-.sidebar__link {
-	display: inline-flex;
-      	vertical-align: middle;
-	margin-top: 10px;
-	color: #008C71;
-} 
 
-.sidebar__link .material-icons-two-tone {
-	color: #008C71;
-} 
-
-.sidebar__link:active {
-	color: #005C71;
-} 
-
-.googles_icon_link {
-	display: inline-flex;
-      	vertical-align: middle;
-	margin-top: 10px;
-	color: #008C71;
-} 
 // select#sub-menu, select#sub-menu>option {
 //     font-family: Helvetica,Helvetica,Arial,sans-serif;
 //     font-size: 1.8rem;
