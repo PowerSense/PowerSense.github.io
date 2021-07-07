@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+   
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  </head>
+  
+	
+  
+  <body>
+  
+<!--     <a id="skip-to-content" href="#content">Skip to the content.</a> -->
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">PowerSense</h1>
+      <h2 class="project-tagline">A Research Lab Focused on Developing Tools at the Cross-Section of Power System Operations, Applied Mathematics, High-Performance Computations, and Machine-Learning</h2>
+      {% if site.github.is_project_page %}
+        <a href="https://github.com/PowerSense" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="about_us" class="btn">About us</a>
+<!--         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a> -->
+      {% endif %}
+    </header>
+	  
+    
+   <div class="container">
+	<div class="row">
+		<div class="col-sm-12 hidden-lg hidden-md visible-sm visible-xs">
+			<select id="sub-menu" name="sub-menu">
+				<option>Navigate to...</option>
+				<option value="https://www.powersense.io">Home</option>
+				<option value="https://github.com/exanauts/ActiveSetMethods">SLP Solver</option>
+				<option value="power_flow">Power Flow Analysis</option>
+				<option value="opf">Optimal Power Flow (Transmission Systems)</option>
+				<option value="facts_devices">FACTS Devices</option>
+				<option value="distributions_systems">Power Distribution Systems</option>
+				<option value="contact_us">Contact Us</option>
+			</select>
+		</div>
+	</div>
+    </div>
+
+    <div class="container">
+	<div class="row">
+		<aside class="sidebar col-lg-3 col-md-4 col-xs-12 mb-5">
+			<div class="dynamicDiv" id="dd.0.4.0">
+				<div class="sidebar-wrapper">
+					<nav>
+						<ul class="nolist hidden-sm hidden-xs">
+							<li><a href="https://www.powersense.io" class="sidebar__link">  
+							    <span class="material-icons-outlined">home</span> 
+							    Home</a>
+							</li>
+							<li><a href="https://github.com/exanauts/ActiveSetMethods">SLP Solver</a></li>
+							<li><a href="power_flow">Power Flow Analysis</a></li>
+							<li><a href="opf">Optimal Power Flow (Transmission Systems)</a></li>
+							<li><a href="facts_devices">FACTS Devices</a></li>
+							<li><a href="distribution_systems">Power Distribtution Systems</a></li>
+							<li><a href="contact_us">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div><!-- .sidebar-wrapepr -->
+			</div>
+		</aside>
+		<div class="content col-lg-9 col-md-8 col-xs-12">
+			<div class="dynamicDiv" id="dd.0.4.1"></div>
+			 <main id="content" class="main-content" role="main"> 
+				 {{ content }}
+	    
+	    
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+	   <span class="site-footer-credits">This project is part of the <a href="https://github.com/PowerSense">PowerSense Lab</a>.</span>
+        {% endif %}
+        <span class="site-footer-owner"><a href="https://www.powersense.io">PowerSense Lab</a> is owned and maintained by <a href="https://www.sayedsadat.com/">Sayed A. Sadat</a>.</span>
+	<p>© 2021 PowerSense.io. All Rights Reserved.</p>
+      </footer>
+    </main>
+	  </div>
+	</div>
+     </div>  
+	  
+  </body>
+</html>
