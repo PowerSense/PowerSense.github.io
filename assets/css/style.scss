@@ -98,8 +98,12 @@
 
 .nolist {
     list-style: none;
-    display: inline-flex;
 }
+.nolist .sidebar__link {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
 .sidebar-wrapper {
 	max-width: 300px;
 	margin-bottom: 0;
