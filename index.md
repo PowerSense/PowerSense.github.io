@@ -4,6 +4,8 @@ layout: default
 
 The website is scheduled to be completed and available for access on October 20, 2021.
 
+<img src="https://powersense.github.io//assets/Powersense_logo_ready.png" align="left" width="200" alt="PowerSense logo">
+
 This open-source Julia package has tools at the cross-section of Power System Operations, Applied Mathematics, High-Performance Computations, and Machine-Learning. Here are the descriptions of the different features of the package.
 
 # Nonlinear Programming (NLP)
