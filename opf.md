@@ -1,3 +1,5 @@
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # Optimal Power Flow (OPF)
 
 An optimal power flow constitutes the core of power system operations. It is an optimization extension of the power flow analysis, where in addition to feasibility, an optimal dispatch is also desired. The objective of power system operation depends on the what kind of problem is being solved. Usually it is to serve the customers at the minimum cost, taking into consideration the physical constraints of the system. Optimal power flow can be expressed as an optimization problem and when security constraints are added it is referred to as security-constrained optimal power flow (SCOPF). In addition to power system operations, a solution to the optimal power flow is also essential for power system planning. 
@@ -43,5 +45,5 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. The ACOPF formulations can be broadly classified as either of the following.
 
 
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 $$MAPE = \frac{1}{n} \sum_{d_i} (\frac{1}{q} \sum_{t_j} |\frac{gap_{i,j}-s_{i,j}}{gap_{i,j}}|  )$$ 
