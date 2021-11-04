@@ -23,3 +23,7 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 </p>
 
 ## OPF Formulations
+
+An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. The ACOPF formulations can be broadly classified as either of the following.
+
+
