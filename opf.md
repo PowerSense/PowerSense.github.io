@@ -12,4 +12,6 @@ The figure above shows a general representation of a π-model of a transmission 
 
 ## OPF Formulations
 
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cint_%7B0%7D%5E%7B%5Cpi%7D%20%5Csin%20x%20%5C%2C%20dx%20%3D%202%20%5Clim_%7Ba%20%5Crightarrow%20b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\int_{0}^{\pi} \sin x \, dx = 2 \lim_{a \rightarrow b} " width="160" height="47" />
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
