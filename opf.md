@@ -1,4 +1,5 @@
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://powersense.github.io/mathjax/tex-chtml.js"></script>
+
 
 # Optimal Power Flow (OPF)
 
