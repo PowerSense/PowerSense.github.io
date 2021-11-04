@@ -10,6 +10,8 @@ In an OPF problem, the most important equations are about the representation of 
 
 The figure above shows a general representation of a π-model of a transmission branch, where y<sub>ij</sub> is the branch series admittance, y<sup>s</sup><sub>ij</sub> is the branch shunt admittance, yMij is the branch mutual admittance, and τ<sub>ij</sub> is the branch complex tap ratio. If a branch is only a transmission line then τ<sup>i</sup><sub>ij</sub>=1 and y<sup>M</sup><sub>ij</sub>=0. If a branch is only a transformer, then all the line parameters are zero. Thus, the figure represents a general model that can represent any type of transmission branch by simply adjusting the values of the parameters shown in the figure above.
 
+Let y<sup>net</sup><sub>ij</sub>=y<sup>M</sup><sub>ij</sub>+(yij+ysij)⋅|τiij|2,ynetji=yij+ysij, and 2K={i,j}∈K∪{j, i}∈K. The admittance matrix can be written as shown in (1).
+
 ## OPF Formulations
 
 <p align="center">
