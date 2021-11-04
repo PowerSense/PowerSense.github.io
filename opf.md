@@ -8,6 +8,4 @@ In an OPF problem, the most important equations are about the representation of 
 
 The figure above shows a general representation of a π-model of a transmission branch, where $`y_{ij}`$ is the branch series admittance, ysij is the branch shunt admittance, yMij is the branch mutual admittance, and τij is the branch complex tap ratio. If a branch is only a transmission line then τiij=1 and yMij=0. If a branch is only a transformer, then all the line parameters are zero. Thus, the figure represents a general model that can represent any type of transmission branch by simply adjusting the values of the parameters shown in the figure.
 
-```math
-e^i + 1 = 0
-```
+![formula](https://render.githubusercontent.com/render/math?math=y_{ij})
