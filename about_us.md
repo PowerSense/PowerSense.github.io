@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Us
+title: About Us
 description: PowerSense.io
 ---
 # About us
