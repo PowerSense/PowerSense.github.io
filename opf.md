@@ -14,6 +14,12 @@ Let y<sup>net</sup><sub>ij</sub> = y<sup>M</sup><sub>ij</sub> + (y<sub>ij</sub> 
 
 2K = {i,j} ∈ K U {j,i} ∈ K. 
 
+asdfasd
+ OK whatever
+ 
+ 
+What?!
+
 The admittance matrix can be written as shown below:
 
 asdfadsf
