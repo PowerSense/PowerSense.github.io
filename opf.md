@@ -1,4 +1,4 @@
-# Optimal Power Flow
+# Optimal Power Flow (OPF)
 
 An optimal power flow constitutes the core of power system operations. It is an optimization extension of the power flow analysis, where in addition to feasibility, an optimal dispatch is also desired. The objective of power system operation depends on the what kind of problem is being solved. Usually it is to serve the customers at the minimum cost, taking into consideration the physical constraints of the system. Optimal power flow can be expressed as an optimization problem and when security constraints are added it is referred to as security-constrained optimal power flow (SCOPF). In addition to power system operations, a solution to the optimal power flow is also essential for power system planning. 
 
@@ -10,6 +10,6 @@ In an OPF problem, the most important equations are about the representation of 
 
 The figure above shows a general representation of a π-model of a transmission branch, where y<sub>ij</sub> is the branch series admittance, y<sup>s</sup><sub>ij</sub> is the branch shunt admittance, yMij is the branch mutual admittance, and τ<sub>ij</sub> is the branch complex tap ratio. If a branch is only a transmission line then τ<sup>i</sup><sub>ij</sub>=1 and y<sup>M</sup><sub>ij</sub>=0. If a branch is only a transformer, then all the line parameters are zero. Thus, the figure represents a general model that can represent any type of transmission branch by simply adjusting the values of the parameters shown in the figure above.
 
-## Optimal Power FLow Formulations
+## OPF Formulations
 
-
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
