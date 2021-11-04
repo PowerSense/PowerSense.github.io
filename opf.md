@@ -1,3 +1,5 @@
 An optimal power flow constitutes the core of power system operations. It is an optimization extension of the power flow analysis, where in addition to feasibility, an optimal dispatch is also desired. The objective of power system operation depends on the what kind of problem is being solved. Usually it is to serve the customers at the minimum cost, taking into consideration the physical constraints of the system. Optimal power flow can be expressed as an optimization problem and when security constraints are added it is referred to as security-constrained optimal power flow (SCOPF). In addition to power system operations, a solution to the optimal power flow is also essential for power system planning. In an OPF problem, the most important equations are about the representation of transmission branches. There are different approaches to model a transmission branch in a power system. The most commonly used representation of the transmission branch is called the π-model, which is what have adopted too.
 
-<img src="https://powersense.github.io//assets//opf//TransmissionModel.png" align="center" width="500" alt="Transmission Model">
+<p align="center">
+<img src="https://powersense.github.io//assets//opf//TransmissionModel.png" width="500" alt="Transmission Model">
+</p>
