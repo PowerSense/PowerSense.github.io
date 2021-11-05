@@ -100,3 +100,12 @@ Definition of the formulation. The syntax for this formulation is `PNRARVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRARVmodel);
 ```
 ---
+```
+@INPROCEEDINGS{9562928,
+  author={Sadat, Sayed Abdullah},
+  booktitle={2021 IEEE International Smart Cities Conference (ISC2)}, 
+  title={Evaluating the Performance of Various ACOPF Formulations Using Nonlinear Interior-Point Method}, 
+  year={2021},
+  pages={1-7},
+  doi={10.1109/ISC253183.2021.9562928}}
+```
