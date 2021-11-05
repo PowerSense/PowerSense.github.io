@@ -13,23 +13,7 @@ In an OPF problem, the most important equations are about the representation of 
 
 The figure above shows a general representation of a π-model of a transmission branch, where `$y_{ij}$` is the branch series admittance, y<sup>s</sup><sub>ij</sub> is the branch shunt admittance, yMij is the branch mutual admittance, and τ<sub>ij</sub> is the branch complex tap ratio. If a branch is only a transmission line then τ<sup>i</sup><sub>ij</sub>=1 and y<sup>M</sup><sub>ij</sub>=0. If a branch is only a transformer, then all the line parameters are zero. Thus, the figure represents a general model that can represent any type of transmission branch by simply adjusting the values of the parameters shown in the figure above.
 
-Let y<sup>net</sup><sub>ij</sub> = y<sup>M</sup><sub>ij</sub> + (y<sub>ij</sub> + y<sup>s</sup><sub>ij</sub>)⋅
-
-|τ<sup>i</sup><sub>ij</sub>|<sub>2</sub>, 
-
-y<sup>net</sup><sub>ji</sub> = y<sub>ij</sub> + y<sup>s</sup><sub>ij</sub>, and 
-
-2K = {i,j} ∈ K U {j,i} ∈ K. 
-
-asdfasd
- OK whatever
- 
- 
-What?!
-
-The admittance matrix can be written as shown below:
-
-asdfadsf
+Let `$y_{ij}^{net} = y^M_{ij}+(y_{ij}+y^s_{ij}) \cdot |\tau^i_{ij}|^2$`, `$y_{ji}^{net} = y_{ij}+y^s_{ij}$`, and `$2\mathcal{K}=\{i,j\} \in \mathcal{K} \bigcup \{j,i\} \in \mathcal{K}$`. The admittance matrix can be written as shown below:
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.image?\bg_red&space;\begin{subequations}\begin{align*}&Y_{ii}=\sum_{\substack{k=1&space;\\&space;k&space;\neq&space;i}}^{\mathcal{K}_i^f}&space;y^{net}_{ik}&plus;\sum_{\substack{k=1&space;\\&space;k&space;\neq&space;i}}^{\mathcal{K}_i^t}y^{net}_{ki},&space;\\&Y_{ij}=-y_{ij}&space;\cdot&space;\tau^{i*}_{ij}&space;\\&Y_{ji}=-y_{ij}&space;\cdot&space;\tau^i_{ij}\end{align*}\end{subequations}" title="Admittance Matrix" />
