@@ -43,3 +43,7 @@ An ACOPF problem in its complex form can be expanded into different solvable opt
 <p align="center">
 <img src="https://powersense.github.io//assets//opf//FormulationsChart.png" width="500" alt="Formulations Chart">
 </p>
+
+### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
+
+Definition of the formulation
