@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: supplementary_page
 title: About Us
 description: PowerSense.io
 ---
