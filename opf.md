@@ -29,6 +29,6 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 
 An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. The ACOPF formulations can be broadly classified as either of the following.
 
-Formulas *can* be inline: $z = x + y$.
+Formulas *can* be inline: $$z = x + y$$.
 
 $$MAPE = \frac{1}{n} \sum_{d_i} (\frac{1}{q} \sum_{t_j} |\frac{gap_{i,j}-s_{i,j}}{gap_{i,j}}|  )$$ 
