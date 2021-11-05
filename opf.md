@@ -15,8 +15,7 @@ The figure above shows a general representation of a π-model of a transmission 
 
 Let $$y_{ij}^{net} = y^M_{ij}+(y_{ij}+y^s_{ij}) \cdot |\tau^i_{ij}|^2$$, $$y_{ji}^{net} = y_{ij}+y^s_{ij}$$, and $$2\mathcal{K}=\{i,j\} \in \mathcal{K} \bigcup \{j,i\} \in \mathcal{K}$$. The admittance matrix can be written as shown below:
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\bg_red&space;\begin{subequations}\begin{align*}&Y_{ii}=\sum_{\substack{k=1&space;\\&space;k&space;\neq&space;i}}^{\mathcal{K}_i^f}&space;y^{net}_{ik}&plus;\sum_{\substack{k=1&space;\\&space;k&space;\neq&space;i}}^{\mathcal{K}_i^t}y^{net}_{ki},&space;\\&Y_{ij}=-y_{ij}&space;\cdot&space;\tau^{i*}_{ij}&space;\\&Y_{ji}=-y_{ij}&space;\cdot&space;\tau^i_{ij}\end{align*}\end{subequations}" title="Admittance Matrix" />
+$$\begin{subequations}\begin{align*}&Y_{ii}=\sum_{\substack{k=1&space;\\&space;k&space;\neq&space;i}}^{\mathcal{K}_i^f}&space;y^{net}_{ik}&plus;\sum_{\substack{k=1&space;\\&space;k&space;\neq&space;i}}^{\mathcal{K}_i^t}y^{net}_{ki},&space;\\&Y_{ij}=-y_{ij}&space;\cdot&space;\tau^{i*}_{ij}&space;\\&Y_{ji}=-y_{ij}&space;\cdot&space;\tau^i_{ij}\end{align*}\end{subequations}$$
 </p>
 
 An ACOPF problem can be formulated as an optimization problem as shown below:
