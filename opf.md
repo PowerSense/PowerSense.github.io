@@ -44,7 +44,7 @@ An ACOPF problem in its complex form can be expanded into different solvable opt
 <img src="https://powersense.github.io//assets//opf//FormulationsChart.png" width="500" alt="Formulations Chart">
 </p>
 
-### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
+### 1. Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
 
 Definition of the formulation. The syntax for this formulation is `PBRAPVmodel`.
 ```julia
@@ -52,7 +52,7 @@ Definition of the formulation. The syntax for this formulation is `PBRAPVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRAPVmodel);
 ```
 
-### Power Branch-Flow Rectangular Admittance Rectangular Voltage (PBRARV):
+### 2. Power Branch-Flow Rectangular Admittance Rectangular Voltage (PBRARV):
 
 Definition of the formulation. The syntax for this formulation is `PBRARVmodel`.
 ```julia
