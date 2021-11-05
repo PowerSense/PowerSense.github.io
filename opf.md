@@ -99,3 +99,4 @@ Definition of the formulation. The syntax for this formulation is `PNRARVmodel`.
 # Solving optimal power flow using PNRARV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRARVmodel);
 ```
+---
