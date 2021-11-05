@@ -29,7 +29,8 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 # Load packages
 using Powersense, Ipopt
 
-# Build Powersense Data model. Path is the address where PSSE or MATPOWER file types are located
+# Build Powersense Data model. 
+# Path is the address where PSSE or MATPOWER file types are located
 Data = create_PowersenseData(path)
 
 run_opf!(Data);
