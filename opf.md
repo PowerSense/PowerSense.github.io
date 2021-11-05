@@ -27,8 +27,8 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 
 ## OPF Formulations
 
-An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. The ACOPF formulations can be broadly classified as either of the following.
+An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. 
 
-Formulas *can* be inline: $$z^2 = x + y_4$$.
-
-$$MAPE = \frac{1}{n} \sum_{d_i} (\frac{1}{q} \sum_{t_j} |\frac{gap_{i,j}-s_{i,j}}{gap_{i,j}}|  )$$ 
+<p align="center">
+<img src="https://powersense.github.io//assets//opf//TransmissionModel.png" width="500" alt="Transmission Model">
+</p>
