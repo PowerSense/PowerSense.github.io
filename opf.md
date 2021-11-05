@@ -30,5 +30,5 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. 
 
 <p align="center">
-<img src="https://powersense.github.io//assets//opf//FormulationChart.png" width="500" alt="Formulation Chart">
+<img src="https://powersense.github.io//assets//opf//FormulationsChart.png" width="500" alt="Formulations Chart">
 </p>
