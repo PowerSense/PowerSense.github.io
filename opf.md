@@ -25,6 +25,16 @@ An ACOPF problem can be formulated as an optimization problem as shown below:
 <img src="https://latex.codecogs.com/svg.image?\bg_red&space;\begin{subequations}\begin{align*}&&space;min&&space;&&space;\sum_{\substack{g&space;\in&space;\mathcal{G}}}&space;c_{2g}&space;\cdot&space;(\Re[s_g])^2&space;&plus;&space;c_{1g}&space;\cdot&space;\Re[s_g]&space;&plus;&space;c_{0g}&space;\\&&space;\text{s.t.}&&space;&&space;s_{ij}=v_i&space;\cdot&space;(y^{net}_{ij}&space;\cdot&space;v_i&plus;Y_{ij}&space;\cdot&space;v_j)^*,&space;&\forall&space;\{i,j\}&space;\in&space;2\mathcal{K}.\\&&space;&&space;&&space;\sum_{\substack{g&space;\in&space;\mathcal{G}_n}}s_g&space;-&space;\sum_{\substack{d&space;\in&space;\mathcal{D}_n}}s_d=\sum_{\substack{k&space;\in&space;\mathcal{K}_n^f}}s_{nk}&plus;\sum_{\substack{k&space;\in&space;\mathcal{K}_n^t}}s_{kn}&space;&plus;Y^L_{n}\cdot&space;|v_n|^2,&space;&\forall&space;n&space;\in&space;\mathcal{N}.\\&&space;&&space;&&space;V_n^{Min}&space;\leq&space;|v_n|&space;\leq&space;V_n^{Max},&space;&\forall&space;n&space;\in&space;\mathcal{N}.&space;\\&&space;&&space;&&space;|s_{ij}|&space;\leq&space;I^{Max}_{ij}&space;\cdot&space;|v_n|,&space;&\forall&space;\{i,j\}&space;\in&space;2\mathcal{K}.&space;\\&&space;&&space;&&space;s_g^{Min}&space;\leq&space;s_g&space;\leq&space;s_g^{Max},&space;&\forall&space;g&space;\in&space;\mathcal{G}.\end{align*}\end{subequations}" title="ACOPF complex problem" />
 </p>
 
+```
+# Load packages
+using Powersense, Ipopt
+
+# Build Powersense Data model. Path is the address where PSSE or MATPOWER file types are located
+Data = create_PowersenseData(path)
+
+run_opf!(Data);
+```
+
 ## OPF Formulations
 
 An ACOPF problem in its complex form can be expanded into different solvable optimization formulations as shown in the figure below. While these formulations represent the same original ACOPF problem, they have different optimization structures that can have different convergence patterns. 
