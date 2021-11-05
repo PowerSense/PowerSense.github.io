@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# PowerSense
+
 PowerSense is a virtual lab for the development of [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl), which is an open-source Julia package of tools at the cross-section of Power System Operations, Applied Mathematics, High-Performance Computations, and Machine-Learning.  
 
 ## Installation
