@@ -16,17 +16,22 @@ Flexible AC transmission system (FACTS) devices are power electronic network con
 Among the various types of FACTS devices, shunt devices, including SVCs and STATCOMs, are widely deployed for voltage support and reactive power compensation. They provide an important approach for enhancing voltage stability and improving power quality. Furthermore, shunt FACTS devices are applied to help power systems accommodate growing renewable energy penetration. SVC and STATCOM devices provide dynamic voltage control capabilities that can help alleviate the impact of large-scale wind farm integration on voltage stability.
 
 <p align="center">
-<img src="https://powersense.github.io//assets//opf//ShuntFACTS.png" width="300" alt="Shunt FACTS Model">
+<img src="https://powersense.github.io//assets//facts//ShuntFACTS.png" width="300" alt="Shunt FACTS Model">
 </p>
 
 In the above figure (a) presents a typical configuration of the SVC, which consists of a fixed capacitor and a thyristor controlled reactor (TCR). Based on this structure, an SVC can be modeled as a variable shunt susceptance. This model is a commonly used representation of SVC devices in optimal power flow. The variable shunt susceptance model of the SVC is shown in (b).
 
 The variable shunt susceptance at bus $$i$$, $$b_{i}^{\mathrm{SVC}}$$, is subject to the bounds defined in the following constraint: 
-$$ b^{\mathrm{min}} \leq b_{i}^{\mathrm{SVC}} \leq b^{\mathrm{max}} $$
+
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?\bg_red&space;\begin{equation}&space;&space;&space;&space;b^{\mathrm{min}}&space;\leq&space;b_{i}^{\mathrm{SVC}}&space;\leq&space;b^{\mathrm{max}}.\end{equation}" title="shunt FACTS bounds" />
+</p>
 
 The reactive power compensation $$Q_{i}^{\mathrm{SVC}}$$ can be calculated based on the voltage model used in the ACOPF formulations and added as an injection source to the reactive power nodal balance equations. For polar voltages the $$Q_{i}^{\mathrm{SVC}}$$ can be calculated as:
 
-$$ Q_{i}^{\mathrm{SVC}}=b_{i}^{\mathrm{SVC}} \cdot V_{i}^{2} $$
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?\bg_red&space;\begin{equation}&space;&space;&space;&space;Q_{i}^{\mathrm{SVC}}=b_{i}^{\mathrm{SVC}}&space;\cdot&space;V_{i}^{2},\end{equation}" title="\bg_red \begin{equation} Q_{i}^{\mathrm{SVC}}=b_{i}^{\mathrm{SVC}} \cdot V_{i}^{2},\end{equation}" />
+</p>
 
 where $$V_{i}$$ is the nodal voltage of bus $$i$$. 
 
