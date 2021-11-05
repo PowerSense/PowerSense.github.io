@@ -60,7 +60,7 @@ Definition of the formulation. The syntax for this formulation is `PBRARVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRARVmodel);
 ```
 
-### Current Branch-Flow Rectangular Admittance Rectangular Voltage (CBRARV):
+### 3. Current Branch-Flow Rectangular Admittance Rectangular Voltage (CBRARV):
 
 Definition of the formulation. The syntax for this formulation is `CBRARVmodel`.
 ```julia
@@ -68,7 +68,7 @@ Definition of the formulation. The syntax for this formulation is `CBRARVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRARVmodel);
 ```
 
-### Current Branch-Flow Rectangular Admittance W-matrix Voltage (CBRAWV):
+### 4. Current Branch-Flow Rectangular Admittance W-matrix Voltage (CBRAWV):
 
 Definition of the formulation. The syntax for this formulation is `CBRAWVmodel`.
 ```julia
@@ -76,7 +76,7 @@ Definition of the formulation. The syntax for this formulation is `CBRAWVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRAWVmodel);
 ```
 
-### Power Nodal-Injection Polar Admittance Polar Voltage (PNPAPV):
+### 5. Power Nodal-Injection Polar Admittance Polar Voltage (PNPAPV):
 
 Definition of the formulation. The syntax for this formulation is `PNPAPVmodel`.
 ```julia
@@ -84,7 +84,7 @@ Definition of the formulation. The syntax for this formulation is `PNPAPVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNPAPVmodel);
 ```
 
-### Power Nodal-Injection Rectangular Admittance Polar Voltage (PNRAPV):
+### 6. Power Nodal-Injection Rectangular Admittance Polar Voltage (PNRAPV):
 
 Definition of the formulation. The syntax for this formulation is `PNRAPVmodel`.
 ```julia
@@ -92,7 +92,7 @@ Definition of the formulation. The syntax for this formulation is `PNRAPVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRAPVmodel);
 ```
 
-### Power Nodal-Injection Rectangular Admittance Rectangular Voltage (PNRARV):
+### 7. Power Nodal-Injection Rectangular Admittance Rectangular Voltage (PNRARV):
 
 Definition of the formulation. The syntax for this formulation is `PNRARVmodel`.
 ```julia
