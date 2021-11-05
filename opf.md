@@ -46,8 +46,56 @@ An ACOPF problem in its complex form can be expanded into different solvable opt
 
 ### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
 
-Definition of the formulation. This formulation is syntaxed as `PNPAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `PBRAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
 ```julia
 # Solving optimal power flow using PBRAPV formulation
-run_opf!(Data, solver = Ipopt.Optimizer, fformulation = PNPAPVmodel);
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRAPVmodel);
+```
+
+### Power Branch-Flow Rectangular Admittance Rectangular Voltage (PBRAPV):
+
+Definition of the formulation. The syntax for this formulation is `PBRARVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+```julia
+# Solving optimal power flow using PBRAPV formulation
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRARVmodel);
+```
+
+### Currrent Branch-Flow Rectangular Admittance Rectangular Voltage (PBRAPV):
+
+Definition of the formulation. The syntax for this formulation is `CBRARVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+```julia
+# Solving optimal power flow using PBRAPV formulation
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRARVmodel);
+```
+
+### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
+
+Definition of the formulation. The syntax for this formulation is `CBRAWVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+```julia
+# Solving optimal power flow using PBRAPV formulation
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRAWVmodel);
+```
+
+### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
+
+Definition of the formulation. The syntax for this formulation is `PNPAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+```julia
+# Solving optimal power flow using PBRAPV formulation
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNPAPVmodel);
+```
+
+### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
+
+Definition of the formulation. The syntax for this formulation is `PNRAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+```julia
+# Solving optimal power flow using PBRAPV formulation
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRAPVmodel);
+```
+
+### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
+
+Definition of the formulation. The syntax for this formulation is `PNRARVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+```julia
+# Solving optimal power flow using PBRAPV formulation
+run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRARVmodel);
 ```
