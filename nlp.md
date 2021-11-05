@@ -1,3 +1,9 @@
+---
+layout: supplementary_page
+title: Nonlinear Solver
+description: PowerSense.io
+---
+
 # Nonlinear Solver
 
 The nonlinear programming optimization component of [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) currently implements sequential linear programming method using line search algorithm for continuous nonlinear optimization. 
