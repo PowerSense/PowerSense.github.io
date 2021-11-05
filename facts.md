@@ -16,7 +16,7 @@ Flexible AC transmission system (FACTS) devices are power electronic network con
 Among the various types of FACTS devices, shunt devices, including SVCs and STATCOMs, are widely deployed for voltage support and reactive power compensation. They provide an important approach for enhancing voltage stability and improving power quality. Furthermore, shunt FACTS devices are applied to help power systems accommodate growing renewable energy penetration. SVC and STATCOM devices provide dynamic voltage control capabilities that can help alleviate the impact of large-scale wind farm integration on voltage stability.
 
 <p align="center">
-<img src="https://powersense.github.io//assets//facts//ShuntFACTS.png" width="300" alt="Shunt FACTS Model">
+<img src="https://powersense.github.io//assets//facts//ShuntFACTS.png" width="250" alt="Shunt FACTS Model">
 </p>
 
 In the above figure (a) presents a typical configuration of the SVC, which consists of a fixed capacitor and a thyristor controlled reactor (TCR). Based on this structure, an SVC can be modeled as a variable shunt susceptance. This model is a commonly used representation of SVC devices in optimal power flow. The variable shunt susceptance model of the SVC is shown in (b).
