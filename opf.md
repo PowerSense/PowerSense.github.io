@@ -33,7 +33,7 @@ using Powersense, Ipopt
 # Path is the address where PSSE or MATPOWER file types are located
 Data = create_PowersenseData(path)
 
-run_opf!(Data);
+run_opf!(Data, solver = Ipopt.Optimizer);
 ```
 
 ## OPF Formulations
