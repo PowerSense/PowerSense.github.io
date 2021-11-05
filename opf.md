@@ -46,7 +46,7 @@ An ACOPF problem in its complex form can be expanded into different solvable opt
 
 ### Power Branch-Flow Rectangular Admittance Polar Voltage (PBRAPV):
 
-Definition of the formulation. The syntax for this formulation is `PBRAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `PBRAPVmodel`.
 ```julia
 # Solving optimal power flow using PBRAPV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRAPVmodel);
@@ -54,7 +54,7 @@ run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRAPVmodel);
 
 ### Power Branch-Flow Rectangular Admittance Rectangular Voltage (PBRARV):
 
-Definition of the formulation. The syntax for this formulation is `PBRARVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `PBRARVmodel`.
 ```julia
 # Solving optimal power flow using PBRARV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRARVmodel);
@@ -62,7 +62,7 @@ run_opf!(Data, solver = Ipopt.Optimizer, formulation = PBRARVmodel);
 
 ### Current Branch-Flow Rectangular Admittance Rectangular Voltage (CBRARV):
 
-Definition of the formulation. The syntax for this formulation is `CBRARVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `CBRARVmodel`.
 ```julia
 # Solving optimal power flow using CBRARV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRARVmodel);
@@ -70,7 +70,7 @@ run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRARVmodel);
 
 ### Current Branch-Flow Rectangular Admittance W-matrix Voltage (CBRAWV):
 
-Definition of the formulation. The syntax for this formulation is `CBRAWVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `CBRAWVmodel`.
 ```julia
 # Solving optimal power flow using CBRAWV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRAWVmodel);
@@ -78,7 +78,7 @@ run_opf!(Data, solver = Ipopt.Optimizer, formulation = CBRAWVmodel);
 
 ### Power Nodal-Injection Polar Admittance Polar Voltage (PNPAPV):
 
-Definition of the formulation. The syntax for this formulation is `PNPAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `PNPAPVmodel`.
 ```julia
 # Solving optimal power flow using PNPAPV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNPAPVmodel);
@@ -86,7 +86,7 @@ run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNPAPVmodel);
 
 ### Power Nodal-Injection Rectangular Admittance Polar Voltage (PNRAPV):
 
-Definition of the formulation. The syntax for this formulation is `PNRAPVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `PNRAPVmodel`.
 ```julia
 # Solving optimal power flow using PNRAPV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRAPVmodel);
@@ -94,7 +94,7 @@ run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRAPVmodel);
 
 ### Power Nodal-Injection Rectangular Admittance Rectangular Voltage (PNRARV):
 
-Definition of the formulation. The syntax for this formulation is `PNRARVmodel` in the [`Powersense.jl`](https://github.com/PowerSense/Powersense.jl) package.
+Definition of the formulation. The syntax for this formulation is `PNRARVmodel`.
 ```julia
 # Solving optimal power flow using PNRARV formulation
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRARVmodel);
