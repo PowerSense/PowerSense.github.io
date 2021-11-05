@@ -100,12 +100,32 @@ Definition of the formulation. The syntax for this formulation is `PNRARVmodel`.
 run_opf!(Data, solver = Ipopt.Optimizer, formulation = PNRARVmodel);
 ```
 ---
+If you find this work useful, we kindly request that you cite the following papers:
+```bibtex
+@article{9562928,
+    author={Sadat, Sayed Abdullah},
+    booktitle={2021 IEEE International Smart Cities Conference (ISC2)}, 
+    title={Evaluating the Performance of Various ACOPF Formulations Using Nonlinear Interior-Point Method}, 
+    year={2021},
+    pages={1-7},
+    doi={10.1109/ISC253183.2021.9562928}
+}
 ```
-@INPROCEEDINGS{9562928,
-  author={Sadat, Sayed Abdullah},
-  booktitle={2021 IEEE International Smart Cities Conference (ISC2)}, 
-  title={Evaluating the Performance of Various ACOPF Formulations Using Nonlinear Interior-Point Method}, 
-  year={2021},
-  pages={1-7},
-  doi={10.1109/ISC253183.2021.9562928}}
+```bibtex
+@article{9562929,
+    author={Sayed Abdullah Sadat and Kibaek Kim},
+    booktitle={2021 Australasian Universities Power Engineering Conference (AUPEC)}, 
+    title={Numerical Performance of Different Formulations for Alternating Current Optimal Power Flow}, 
+    year={2021},
+    pages={1-6}
+}
+```
+```bibtex
+@article{9562988,
+    author={Sadat, Sayed Abdullah and Rui, Xinyang and Ardakani, Mostafa},
+    booktitle={2021 IEEE North American Power Symposium (NAPS)}, 
+    title={Computational Impacts of SVCs on Optimal Power Flow using Approximated Active-Set Interior Point Algorithm}, 
+    year={2021},
+    pages={1-6}
+}
 ```
