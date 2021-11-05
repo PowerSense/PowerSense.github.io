@@ -127,12 +127,3 @@ If you find this work useful, we kindly request that you cite the following pape
     pages={1-6}
 }
 ```
-```bibtex
-@article{9562988,
-    author={Sadat, Sayed Abdullah and Rui, Xinyang and Ardakani, Mostafa},
-    booktitle={2021 IEEE North American Power Symposium (NAPS)}, 
-    title={Computational Impacts of SVCs on Optimal Power Flow using Approximated Active-Set Interior Point Algorithm}, 
-    year={2021},
-    pages={1-6}
-}
-```
