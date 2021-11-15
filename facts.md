@@ -45,9 +45,9 @@ using Powersense, Ipopt
 Data = create_PowersenseData(path)
 
 run_opf!(Data, 
-         FACTS_bShunt = true,
          solver = Ipopt.Optimizer, 
-         formulation = PNPAPVmodel
+         formulation = PNPAPVmodel,
+         FACTS_bShunt = true
          );
 ```
 The package assumes the shunt FACTS devices to be a continious variable.
